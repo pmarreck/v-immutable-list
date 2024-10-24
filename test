@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+command="v -stats test ."
+echo -e "\033[33m$command\033[0m" 1>&2
+$command
